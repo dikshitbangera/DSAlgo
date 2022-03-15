@@ -1,4 +1,4 @@
-package ProblemSolving;
+package ArrayProblems;
 
 
 public class MaxMininArray {
