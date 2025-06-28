@@ -30,6 +30,18 @@ public class DuplicateinString {
 				System.out.println(" The Element " +c+ " is repeated "+map.get(c)+ " times");
 			}
 		}
+
+		int max=0;
+		char charmax = 0;
+		for(Character demo : keyset) {
+			if(map.get(demo)>max) {
+				max=map.get(demo);
+				charmax = demo;
+			}
+		}
+		
+		System.out.println("The character repeated maximum times are "+charmax+" "+max);
+
 		
 		
 	
