@@ -8,7 +8,7 @@ public class Findthemedian {
 		// TODO Auto-generated method stub
 		int v[]=new int[] {90 ,100 ,78 ,89 ,67};
 		
-		Arrays.sort(v);
+		Arrays.sort(v); //[67,78,89,90,100]
         int size=v.length;
         int result=0;
         int median =size/2;
